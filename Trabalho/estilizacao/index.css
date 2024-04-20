@@ -1,0 +1,90 @@
+body{
+    background:"imagens/logo_equipes/giphy.gif";
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body .cabecalho_corridas{
+    display: inline;
+    position: relative;
+}
+body .resultado_fases{
+    position: relative;
+    text-align: center;
+}
+body table{
+    align-items: center;
+    justify-content: center;
+}
+.container_equipes{
+    display: flex;
+    justify-content: center;
+}
+.container_equipes h3{
+    text-align: center;
+}
+.container_equipes table{
+    margin: 30px;
+}
+table{
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.container_cabecalho .cabecalho{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+
+}
+td{
+    position: relative;
+    text-align: center;
+    padding: 5px;
+}
+table tr td{
+    margin: 15px;
+    text-align: center;
+}
+.classificacao_equipes .logo_equipes{
+    max-width: 50px;
+    max-height: 50px;
+}
+.classificacao_equipes .cabecalho_equipes{
+    font-weight: bold; 
+}
+.container_equipes table{
+    padding: 30px;
+} 
+
+.container_fases {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+.container_fases h2{
+    font-weight: bold;
+}
+.container_fases table{
+    align-items: center;
+    justify-content: center;
+    padding: 60px;
+    margin: 25px;
+}
+.piloto_equipe{
+    margin: 70px;
+}
+.piloto_equipe table{
+    padding: 30px;
+}
+.sistema_pontos{
+    margin: 60px;
+    
+}
+.sistema_pontos table{
+    padding: 50px;
+}
